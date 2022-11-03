@@ -15,6 +15,7 @@ body {
     line-height: 25px;
     margin-right: 10rem;
     margin-left: 10rem;
+    min-width: 900px;
 }
 
 .header {
@@ -42,9 +43,8 @@ body {
     text-transform: uppercase;
 }
 
-.topic-text {
+.white {
     color: var(--white-color);
-
 }
 
 hr {
@@ -78,10 +78,6 @@ hr {
     justify-content: flex-start;
 }
 
-.icon-container p {
-    color: var(--white-color);
-}
-
 .icon-container .fa-solid {
     color: var(--main-text-color);
     margin-right: 2rem;
@@ -112,4 +108,18 @@ hr {
 
 .dots-bar .fa-circle {
     color: var(--main-text-color);
+}
+
+.cv-list {
+    margin-bottom: 35px;
+}
+
+.cv-text-header {
+    font-weight: 700;
+    margin: 2px;
+}
+
+.cv-text {
+    margin: 3px;
+    text-transform: capitalize;
 }
