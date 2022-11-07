@@ -1,0 +1,8 @@
+p {
+	color: green; text-align: center;
+}
+#id {color: red; text-align: center;}
+.className {color: red; text-align: center;}
+p.center{color:red; text-align: center;}
+	*{color:red; text-align: center;}
+h2, h4, p {color:red; text-align: center;}
